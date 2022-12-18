@@ -1,3 +1,15 @@
+macro_alt_down2_ent: macro_alt_down2_ent{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_down2_ent";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp DOWN>, <&kp DOWN>, <&kp ENTER>;
+};
+macro_f2_ctrl_ac_ent: macro_f2_ctrl_ac_ent{
+compatible = "zmk,behavior-macro";
+label = "macro_f2_ctrl_ac_ent";
+#binding-cells = <0>;
+bindings = <&kp F2>, <&kp LCTRL>, <&kp A>, <&kp RCTRL>, <&kp C>, <&kp ENTER>;
+};
 macro_ctrl_alt_prtscr: macro_ctrl_alt_prtscr{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_alt_prtscr";
