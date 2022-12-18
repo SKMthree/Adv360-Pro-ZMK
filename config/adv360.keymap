@@ -79,7 +79,7 @@
 
         layer_test {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp INT3
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL     &none
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans     &trans   &kp LBKT  &kp RBKT
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                     &trans     &trans    &trans  &trans  &trans     &trans  &kp SEMICOLON  &kp SINGLE_QUOTE         &kp BACKSLASH
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &kp COMMA     &kp PERIOD         &kp SLASH  &kp NON_US_BACKSLASH
