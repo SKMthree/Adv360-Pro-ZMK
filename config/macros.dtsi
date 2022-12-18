@@ -1,14 +1,14 @@
-macro_ctrl+break: macro_ctrl+break{
+macro_parens_jp: macro_parens_jp{
 compatible = "zmk,behavior-macro";
-label = "macro_ctrl+break";
-#binding-cells = <0>;
-bindings = <&kp RCTRL>, <&kp PAUSE_BREAK>;
-};
-macro_[]: macro_[]{
-compatible = "zmk,behavior-macro";
-label = "macro_[]";
+label = "macro_parens_jp";
 #binding-cells = <0>;
 bindings = <&kp RBKT>, <&kp BACKSLASH>, <&kp LEFT>;
+};
+macro_ctrl_break: macro_ctrl_break{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_break";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp PAUSE_BREAK>;
 };
 macro_macro_ime: macro_macro_ime{
 compatible = "zmk,behavior-macro";
