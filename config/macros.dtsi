@@ -10,12 +10,6 @@ label = "macro_[]";
 #binding-cells = <0>;
 bindings = <&kp RBKT>, <&kp BACKSLASH>, <&kp LEFT>;
 };
-macro_f2_ctrl+a,+c: macro_f2_ctrl+a,+c{
-compatible = "zmk,behavior-macro";
-label = "macro_f2_ctrl+a,+c";
-#binding-cells = <0>;
-bindings = <&kp F2>;
-};
 macro_macro_ime: macro_macro_ime{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_ime";
