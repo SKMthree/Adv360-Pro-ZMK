@@ -18,7 +18,7 @@
        "&kp LSHFT",        "&kp Z",     "&kp X",    "&kp C",     "&kp V",    "&kp B",                  "&none",     "&none",        "&kp HOME",     "&none",     "&none", "&macro_ctrl+break",     "&none",     "&none",  "&kp N",  "&kp M", "&kp COMMA", "&kp DOT", "&kp FSLH", "&kp NON_US_BACKSLASH",
            "&mo 2", "&kp LEFT_GUI", "&kp GRAVE", "&kp LEFT", "&kp RIGHT", "&kp BSPC",                "&kp DEL",   "&kp END", "&kp PRINTSCREEN", "&kp ENTER", "&kp SPACE",          "&kp LBKT", "&kp EQUAL",  "&kp INT3",  "&none",  "&mo 2"
     ], [
-       "&kp EQUAL",       "&kp N1",    "&kp N2",   "&kp N3",    "&kp N4",   "&kp N5",             "&mo 3",    "&tog 0",    "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY",  "&kp MINUS",
+       "&kp EQUAL",       "&kp N1",    "&kp N2",   "&kp N3",    "&kp N4",   "&kp N5",            "&trans",    "&trans",    "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY",  "&kp MINUS",
          "&kp TAB",        "&none",     "&none",   "&kp UP",     "&none",    "&none",             "&none",     "&none",     "&none",  "&kp KP_N7",    "&kp KP_N8",     "&kp KP_N9",    "&kp KP_MINUS",   "&kp BSLH",
          "&kp ESC",        "&none",  "&kp LEFT", "&kp DOWN", "&kp RIGHT",    "&none",             "&none", "&kp LCTRL",  "&kp LALT",                                    "&kp LGUI",       "&kp RCTRL",      "&none",    "&none", "&kp KP_N4", "&kp KP_N5", "&kp KP_N6",  "&kp KP_PLUS",   "&kp SQT",
        "&kp LSHFT",        "&none",     "&none",    "&none",     "&none",    "&none",             "&none",     "&none",  "&kp HOME",      "&none",        "&none",     "&kp PG_UP",           "&none",      "&none",    "&none", "&kp KP_N1", "&kp KP_N2", "&kp KP_N3", "&kp KP_ENTER", "&kp RSHFT",
