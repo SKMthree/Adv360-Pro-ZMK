@@ -1,3 +1,9 @@
+macro_dquotes_jp: macro_dquotes_jp{
+compatible = "zmk,behavior-macro";
+label = "macro_dquotes_jp";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp NUMBER_2>, <&kp LEFT_SHIFT>, <&kp NUMBER_2>, <&kp LEFT>;
+};
 macro_ctrl_v: macro_ctrl_v{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_v";
