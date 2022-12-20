@@ -12,11 +12,11 @@
   ],
   "layers": [
     [
-       "&kp GRAVE",       "&kp N1",      "&kp N2",   "&kp N3",    "&kp N4",   "&kp N5",           "&lt 3 EXCLAMATION",    "&tog 1",                 "&kp N6",    "&kp N7",    "&kp N8",            "&kp N9",        "&kp N0",        "&kp MINUS",
-         "&kp TAB",        "&kp Q",       "&kp W",    "&kp E",     "&kp R",    "&kp T",                  "&caps_word",    "&kp UP",                  "&kp Y",     "&kp U",     "&kp I",             "&kp O",         "&kp P", "&macro_parens_jp",
-         "&kp ESC",        "&kp A",       "&kp S",    "&kp D",     "&kp F",    "&kp G",                   "&kp MINUS", "&kp LCTRL",               "&kp LALT",                                    "&kp RGUI", "&mt RCTRL TAB",         "&kp DOWN",  "&kp H",  "&kp J",     "&kp K",   "&kp L", "&kp SEMI",              "&kp SQT",
-       "&kp LSHFT",        "&kp Z",       "&kp X",    "&kp C",     "&kp V",    "&kp B",                       "&none",     "&none",             "&lt 0 HOME",     "&none",     "&none", "&macro_ctrl_break",         "&none",            "&none",  "&kp N",  "&kp M", "&kp COMMA", "&kp DOT", "&kp FSLH", "&mt RSHIFT BACKSLASH",
-           "&mo 2", "&kp LEFT_GUI", "&mt LALT F2", "&kp LEFT", "&kp RIGHT", "&kp BSPC",                     "&kp DEL",   "&kp END", "&macro_ctrl_alt_prtscr", "&kp ENTER", "&kp SPACE",          "&kp LBKT",     "&kp EQUAL",         "&kp INT3",  "&mo 5",  "&mo 2"
+       "&kp GRAVE",    "&kp N1",      "&kp N2",   "&kp N3",    "&kp N4",   "&kp N5",           "&lt 3 EXCLAMATION",  "&tog 1",                 "&kp N6",    "&kp N7",    "&kp N8",            "&kp N9",        "&kp N0",        "&kp MINUS",
+         "&kp TAB",     "&kp Q",       "&kp W",    "&kp E",     "&kp R",    "&kp T",                  "&caps_word",  "&kp UP",                  "&kp Y",     "&kp U",     "&kp I",             "&kp O",         "&kp P", "&macro_parens_jp",
+         "&kp ESC",     "&kp A",       "&kp S",    "&kp D",     "&kp F",    "&kp G",                   "&kp MINUS", "&kp DEL",               "&kp LALT",                                    "&kp RGUI", "&mt RCTRL TAB",         "&kp DOWN",  "&kp H",  "&kp J",     "&kp K",   "&kp L", "&kp SEMI",              "&kp SQT",
+       "&kp LSHFT",     "&kp Z",       "&kp X",    "&kp C",     "&kp V",    "&kp B",                       "&none",   "&none",             "&lt 0 HOME",     "&none",     "&none", "&macro_ctrl_break",         "&none",            "&none",  "&kp N",  "&kp M", "&kp COMMA", "&kp DOT", "&kp FSLH", "&mt RSHIFT BACKSLASH",
+           "&mo 2", "&kp LCTRL", "&mt LALT F2", "&kp LEFT", "&kp RIGHT", "&kp BSPC",              "&kp LEFT_SHIFT", "&kp END", "&macro_ctrl_alt_prtscr", "&kp ENTER", "&kp SPACE",          "&kp LBKT",     "&kp EQUAL",         "&kp INT3",  "&mo 5",  "&mo 2"
     ], [
        "&kp GRAVE",       "&kp N1",                "&kp N2",                "&kp N3",        "&kp N4",   "&kp N5",            "&trans",    "&trans",   "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY",        "&kp MINUS",
          "&kp TAB",        "&none",                 "&none",                "&kp UP",        "&kp F2",    "&none",             "&none",     "&none",    "&none",  "&kp KP_N7",    "&kp KP_N8",     "&kp KP_N9",    "&kp KP_MINUS", "&macro_parens_jp",
