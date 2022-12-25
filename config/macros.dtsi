@@ -14,7 +14,7 @@ macro_alt_down2_ent: macro_alt_down2_ent{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_down2_ent";
 #binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp DOWN>, <&kp DOWN>, <&kp ENTER>;
+bindings = <&sk LEFT_ALT>, <&kp DOWN>, <&kp DOWN>, <&kp ENTER>, <&kp DOWN>;
 };
 macro_f2_ctrl_ac_ent: macro_f2_ctrl_ac_ent{
 compatible = "zmk,behavior-macro";

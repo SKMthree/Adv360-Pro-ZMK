@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
- &kp GRAVE        &kp N1                 &kp N2                 &kp N3         &kp N4  &kp N5            &trans   &trans  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY         &kp MINUS
-   &kp TAB         &none                  &none                 &kp UP         &kp F2   &none             &none    &none   &none   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS  &macro_parens_jp
-   &kp ESC         &none               &kp LEFT               &kp DOWN      &kp RIGHT   &none             &none   &trans  &trans                                 &kp LGUI           &trans             &none   &none  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS  &kp SQT
- &kp LSHFT         &none  &macro_f2_ctrl_ac_ent  &macro_f2_ctrl_ac_ent  &macro_ctrl_v   &none             &none    &none  &trans       &none         &none         &trans            &none             &none   &none  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER   &trans
-    &trans  &kp LEFT_GUI           &kp LEFT_ALT               &kp LEFT      &kp RIGHT  &trans            &trans  &kp END  &trans   &kp ENTER        &trans      &kp KP_N0     &kp KP_SLASH        &kp KP_DOT   &mo 5     &trans
+ &kp GRAVE        &kp N1                 &kp N2                 &kp N3         &kp N4  &kp N5            &trans   &trans  &kp N6      &none  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY         &kp MINUS
+   &kp TAB         &none                  &none                 &kp UP         &kp F2   &none             &none    &none   &none  &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS  &macro_parens_jp
+   &kp ESC         &none               &kp LEFT               &kp DOWN      &kp RIGHT   &none             &none   &trans  &trans                                &kp LGUI           &trans             &none   &none  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS  &kp SQT
+ &kp LSHFT         &none  &macro_f2_ctrl_ac_ent  &macro_f2_ctrl_ac_ent  &macro_ctrl_v   &none             &none    &none  &trans      &none         &none         &trans            &none             &none   &none  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER   &trans
+    &trans  &kp LEFT_GUI           &kp LEFT_ALT               &kp LEFT      &kp RIGHT  &trans            &trans  &kp END  &trans  &kp ENTER        &trans      &kp KP_N0     &kp KP_SLASH        &kp KP_DOT   &mo 5     &trans
             >;
         };
 
