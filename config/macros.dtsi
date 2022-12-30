@@ -1,3 +1,93 @@
+macro_r5: macro_r5{
+compatible = "zmk,behavior-macro";
+label = "macro_r5";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp R>, <&kp NUMBER_5>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_r4: macro_r4{
+compatible = "zmk,behavior-macro";
+label = "macro_r4";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp R>, <&kp NUMBER_4>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_r3: macro_r3{
+compatible = "zmk,behavior-macro";
+label = "macro_r3";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp R>, <&kp NUMBER_3>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_r2: macro_r2{
+compatible = "zmk,behavior-macro";
+label = "macro_r2";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp R>, <&kp NUMBER_2>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_si52: macro_si52{
+compatible = "zmk,behavior-macro";
+label = "macro_si52";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp S>, <&kp I>, <&kp NUMBER_5>, <&kp NUMBER_2>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_r1: macro_r1{
+compatible = "zmk,behavior-macro";
+label = "macro_r1";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp R>, <&kp NUMBER_1>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_ge53: macro_ge53{
+compatible = "zmk,behavior-macro";
+label = "macro_ge53";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp G>, <&kp E>, <&kp NUMBER_5>, <&kp NUMBER_3>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_ge52: macro_ge52{
+compatible = "zmk,behavior-macro";
+label = "macro_ge52";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp G>, <&kp E>, <&kp NUMBER_5>, <&kp NUMBER_2>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_ge2: macro_ge2{
+compatible = "zmk,behavior-macro";
+label = "macro_ge2";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp G>, <&kp E>, <&kp NUMBER_2>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_ge51: macro_ge51{
+compatible = "zmk,behavior-macro";
+label = "macro_ge51";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp G>, <&kp E>, <&kp NUMBER_5>, <&kp NUMBER_1>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_ge1: macro_ge1{
+compatible = "zmk,behavior-macro";
+label = "macro_ge1";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp G>, <&kp E>, <&kp NUMBER_1>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_si54: macro_si54{
+compatible = "zmk,behavior-macro";
+label = "macro_si54";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp S>, <&kp I>, <&kp NUMBER_5>, <&kp NUMBER_4>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_si53: macro_si53{
+compatible = "zmk,behavior-macro";
+label = "macro_si53";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp S>, <&kp I>, <&kp NUMBER_5>, <&kp NUMBER_3>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_si13: macro_si13{
+compatible = "zmk,behavior-macro";
+label = "macro_si13";
+#binding-cells = <0>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp S>, <&kp I>, <&kp NUMBER_1>, <&kp NUMBER_3>, <&kp SPACE>, <&kp ENTER>;
+};
+macro_si51: macro_si51{
+compatible = "zmk,behavior-macro";
+label = "macro_si51";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp F>, <&kp S>, <&kp I>, <&kp NUMBER_5>, <&kp NUMBER_1>, <&kp SPACE>, <&kp ENTER>;
+};
 macro_si12: macro_si12{
 compatible = "zmk,behavior-macro";
 label = "macro_si12";
