@@ -2,13 +2,13 @@ macro_si12: macro_si12{
 compatible = "zmk,behavior-macro";
 label = "macro_si12";
 #binding-cells = <0>;
-bindings = <&sk RCTRL>, <&kp F>, <&kp S>, <&kp I>, <&kp NUMBER_1>, <&kp NUMBER_2>, <&kp GRAVE>, <&kp ENTER>;
+bindings = <&sk RCTRL>, <&kp F>, <&kp S>, <&kp I>, <&kp NUMBER_1>, <&kp NUMBER_2>, <&kp SPACE>, <&kp ENTER>;
 };
 macro_si11: macro_si11{
 compatible = "zmk,behavior-macro";
 label = "macro_si11";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&kp F>, <&kp S>, <&kp I>, <&kp NUMBER_1>, <&kp NUMBER_1>, <&kp GRAVE>, <&kp ENTER>;
+bindings = <&sk LCTRL>, <&kp F>, <&kp S>, <&kp I>, <&kp NUMBER_1>, <&kp NUMBER_1>, <&kp SPACE>, <&kp ENTER>;
 };
 macro_dquotes_jp: macro_dquotes_jp{
 compatible = "zmk,behavior-macro";
