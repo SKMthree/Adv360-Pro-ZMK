@@ -52,7 +52,7 @@
             "&trans",      "&trans",      "&trans",                "&trans",        "&trans",      "&trans",                "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans", "&trans", "&trans",
        "&macro_si11", "&macro_si12", "&macro_si13",           "&macro_si51",   "&macro_si52", "&macro_si53",           "&macro_si54", "&macro_r1", "&macro_r2", "&macro_r3", "&macro_r4", "&macro_r5", "&trans", "&trans",
              "&none",       "&none",  "&macro_ge1",            "&macro_ge2",   "&macro_ge51", "&macro_ge52",           "&macro_ge53",    "&trans",    "&trans",                              "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-             "&none",       "&none",       "&none", "&macro_f2_ctrl_ac_ent", "&macro_ctrl_v",      "&trans",                "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+             "&none",       "&none",       "&none", "&macro_f2_ctrl_ac_ent", "&macro_ctrl_v",       "&none",                "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
              "&to 0",      "&trans",      "&trans",                "&trans",        "&trans",      "&trans",                "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
