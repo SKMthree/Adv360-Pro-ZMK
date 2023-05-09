@@ -43,7 +43,7 @@
  &kp GRAVE     &kp N1  &kp N2       &kp N3           &kp N4          &kp N5            &lt 3 EXCLAMATION          &tog 1                &kp N6     &kp N7         &kp N8                  &kp N9         &kp N0         &kp MINUS
    &kp TAB      &kp Q   &kp W        &kp E            &kp R           &kp T                   &caps_word      &lt 0 HOME                 &kp Y      &kp U          &kp I                   &kp O          &kp P  &macro_parens_jp
    &kp ESC      &kp A   &kp S        &kp D            &kp F           &kp G                      &kp TAB         &kp DEL              &kp LALT                                          &kp RGUI  &mt RCTRL TAB           &kp END   &kp H   &kp J      &kp K    &kp L  &kp SEMI               &kp SQT
- &kp LSHFT      &kp Z   &kp X        &kp C            &kp V           &kp B                        &none           &none       &macro_alt_four      &none          &none  &macro_ctrl_alt_prtscr          &none             &none   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT BACKSLASH
+ &kp LSHFT      &kp Z   &kp X        &kp C            &kp V           &kp B                        &none           &none       &macro_alt_five      &none          &none  &macro_ctrl_alt_prtscr          &none             &none   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT BACKSLASH
      &mo 2  &kp LCTRL  &kp F2  &mt LCTRL C  &macro_alt_four  &kp LEFT_SHIFT                    &kp SPACE  &sk LEFT_SHIFT  &macro_ctrl_shift_f5  &kp ENTER  &kp BACKSPACE                &kp LBKT      &kp EQUAL      &kp QUESTION   &mo 5   &mo 2
             >;
         };
