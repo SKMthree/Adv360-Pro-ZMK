@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE     &kp N1       &kp N2    &kp N3     &kp N4          &kp N5            &lt 3 EXCLAMATION          &tog 1                  &kp N6     &kp N7         &kp N8             &kp N9         &kp N0         &kp MINUS
-   &kp TAB      &kp Q        &kp W     &kp E      &kp R           &kp T                   &lt 0 HOME          &kp UP                   &kp Y      &kp U          &kp I              &kp O          &kp P  &macro_parens_jp
-   &kp ESC      &kp A        &kp S     &kp D      &kp F           &kp G                      &kp END         &kp DEL                &kp LALT                                     &kp RGUI  &mt RCTRL TAB          &kp DOWN   &kp H   &kp J      &kp K    &kp L  &kp SEMI               &kp SQT
- &kp LSHFT      &kp Z        &kp X     &kp C      &kp V           &kp B                        &none           &none              &caps_word      &none          &none  &macro_ctrl_break          &none             &none   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT BACKSLASH
-     &mo 2  &kp LCTRL  &mt LALT F2  &kp LEFT  &kp RIGHT  &kp LEFT_SHIFT                    &kp SPACE  &sk LEFT_SHIFT  &macro_ctrl_alt_prtscr  &kp ENTER  &kp BACKSPACE           &kp LBKT      &kp EQUAL      &kp QUESTION   &mo 5   &mo 2
+ &kp GRAVE     &kp N1       &kp N2    &kp N3     &kp N4          &kp N5            &lt 3 EXCLAMATION          &tog 1                &kp N6     &kp N7         &kp N8                  &kp N9         &kp N0         &kp MINUS
+   &kp TAB      &kp Q        &kp W     &kp E      &kp R           &kp T                   &lt 0 HOME          &kp UP                 &kp Y      &kp U          &kp I                   &kp O          &kp P  &macro_parens_jp
+   &kp ESC      &kp A        &kp S     &kp D      &kp F           &kp G                      &kp END         &kp DEL              &kp LALT                                          &kp RGUI  &mt RCTRL TAB          &kp DOWN   &kp H   &kp J      &kp K    &kp L  &kp SEMI               &kp SQT
+ &kp LSHFT      &kp Z        &kp X     &kp C      &kp V           &kp B                        &none           &none            &caps_word      &none          &none  &macro_ctrl_alt_prtscr          &none             &none   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT BACKSLASH
+     &mo 2  &kp LCTRL  &mt LALT F2  &kp LEFT  &kp RIGHT  &kp LEFT_SHIFT                    &kp SPACE  &sk LEFT_SHIFT  &macro_ctrl_shift_f5  &kp ENTER  &kp BACKSPACE                &kp LBKT      &kp EQUAL      &kp QUESTION   &mo 5   &mo 2
             >;
         };
 
@@ -92,7 +92,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans    &trans  &macro_dquotes_jp
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                    &trans    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                    &trans    &tog 1             &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans  &trans  &trans  &kp UP  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN          &kp RIGHT  &trans  &trans
             >;
