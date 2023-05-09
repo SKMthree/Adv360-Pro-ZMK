@@ -1,3 +1,9 @@
+macro_alt_four: macro_alt_four{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_four";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp NUMBER_4>;
+};
 macro_ctrl_shift_f5: macro_ctrl_shift_f5{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_shift_f5";
