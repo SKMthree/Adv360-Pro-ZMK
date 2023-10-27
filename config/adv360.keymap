@@ -81,7 +81,7 @@
         layer_test {
             bindings = <
             &kp PIPE             &kp PIPE2      &kp DOLLAR           &none           &trans          &trans            &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp INTERNATIONAL_3
-       &kp BACKSLASH  &kp NON_US_BACKSLASH       &kp TILDE      &kp TILDE2  &kp NON_US_HASH        &kp HASH            &trans  &trans  &trans  &trans  &trans     &trans   &kp LBKT             &kp RBKT
+       &kp BACKSLASH  &kp NON_US_BACKSLASH   &kp BACKSLASH      &kp TILDE2  &kp NON_US_HASH        &kp HASH            &trans  &trans  &trans  &trans  &trans     &trans   &kp LBKT             &kp RBKT
  &kp INTERNATIONAL_3   &kp INTERNATIONAL_1        &kp INT2        &kp INT6         &kp INT7        &kp INT8            &trans  &trans  &trans                     &trans     &trans               &trans  &trans  &trans     &trans  &kp SEMICOLON  &kp SINGLE_QUOTE         &kp BACKSLASH
       &kp LANGUAGE_1        &kp LANGUAGE_2  &kp LANGUAGE_3  &kp LANGUAGE_4   &kp LANGUAGE_5  &kp LANGUAGE_6            &trans  &trans  &trans  &trans  &trans     &trans     &trans               &trans  &trans  &trans  &kp COMMA     &kp PERIOD         &kp SLASH  &kp NON_US_BACKSLASH
                &to 0        &kp LANGUAGE_7  &kp LANGUAGE_8  &kp LANGUAGE_9            &none          &trans            &trans  &trans  &trans  &trans  &trans      &none      &none                &none   &none   &none
@@ -90,11 +90,11 @@
 
         layer_direction_dquotes {
             bindings = <
- &trans  &trans  &trans  &trans  &trans               &trans              &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans
- &trans  &trans  &trans  &trans  &trans               &trans              &trans  &trans  &trans  &trans  &trans    &trans    &trans  &macro_dquotes_jp
- &trans  &trans  &trans  &trans  &trans               &trans              &trans  &trans  &trans                    &trans    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans               &trans              &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans  &trans  &trans  &kp UP  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &kp INTERNATIONAL_3            &kp INT1  &trans  &trans   &to 0  &trans  &kp LEFT  &kp DOWN          &kp RIGHT  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans    &trans  &macro_dquotes_jp
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                    &trans    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans  &trans  &trans  &kp UP  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans   &to 0  &trans  &kp LEFT  &kp DOWN          &kp RIGHT  &trans  &trans
             >;
         };
 
