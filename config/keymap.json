@@ -43,11 +43,11 @@
             "&kp LANGUAGE_1",       "&kp LANGUAGE_2", "&kp LANGUAGE_3", "&kp LANGUAGE_4",  "&kp LANGUAGE_5", "&kp LANGUAGE_6",           "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",    "&trans",              "&trans", "&trans", "&trans", "&kp COMMA",    "&kp PERIOD",        "&kp SLASH", "&kp NON_US_BACKSLASH",
                      "&to 0",       "&kp LANGUAGE_7", "&kp LANGUAGE_8", "&kp LANGUAGE_9",           "&none",         "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans",     "&none",     "&none",               "&none",  "&none",  "&none"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",               "&trans", "&trans",   "&trans",   "&trans",            "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",               "&trans", "&trans",   "&trans",   "&trans", "&macro_dquotes_jp",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                                     "&trans",   "&trans",            "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",               "&trans", "&trans",   "&trans",   "&trans",            "&trans", "&trans", "&trans", "&kp UP", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&macro_hanzen_formac", "&trans", "&kp LEFT", "&kp DOWN",         "&kp RIGHT", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",      "&trans", "&trans",               "&trans", "&trans",   "&trans",   "&trans",            "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&bootloader", "&trans",               "&trans", "&trans",   "&trans",   "&trans", "&macro_dquotes_jp",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",      "&trans", "&trans",                                     "&trans",   "&trans",            "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",      "&trans", "&trans",               "&trans", "&trans",   "&trans",   "&trans",            "&trans", "&trans", "&trans", "&kp UP", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",      "&trans", "&trans", "&macro_hanzen_formac", "&trans", "&kp LEFT", "&kp DOWN",         "&kp RIGHT", "&trans", "&trans"
     ], [
             "&trans",      "&trans",      "&trans",                "&trans",        "&trans",      "&trans",                "&trans",    "&trans",    "&trans",    "&trans",    "&trans",    "&trans", "&trans", "&trans",
        "&macro_si11", "&macro_si12", "&macro_si13",           "&macro_si51",   "&macro_si52", "&macro_si53",           "&macro_si54", "&macro_r1", "&macro_r2", "&macro_r3", "&macro_r4", "&macro_r5", "&trans", "&trans",
