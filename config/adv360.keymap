@@ -90,11 +90,11 @@
 
         layer_direction_dquotes {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans    &trans  &macro_dquotes_jp
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                    &trans    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans  &trans  &trans  &kp UP  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans   &to 0  &trans  &kp LEFT  &kp DOWN          &kp RIGHT  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                &trans  &trans    &trans    &trans             &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                &trans  &trans    &trans    &trans  &macro_dquotes_jp
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                                  &trans    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                &trans  &trans    &trans    &trans             &trans  &trans  &trans  &kp UP  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &macro_hanzen_formac  &trans  &kp LEFT  &kp DOWN          &kp RIGHT  &trans  &trans
             >;
         };
 
