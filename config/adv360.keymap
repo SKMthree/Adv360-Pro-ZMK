@@ -90,11 +90,11 @@
 
         layer_direction_dquotes {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans       &trans  &trans                &trans  &trans    &trans    &trans             &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &bootloader  &trans                &trans  &trans    &trans    &trans  &macro_dquotes_jp
- &trans  &trans  &trans  &trans  &trans  &trans            &trans       &trans  &trans                                  &trans    &tog 1             &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans       &trans  &trans                &trans  &trans    &trans    &trans             &trans  &trans  &trans  &kp UP  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans       &trans  &trans  &macro_hanzen_formac  &trans  &kp LEFT  &kp DOWN          &kp RIGHT  &trans  &trans
+ &trans       &trans       &trans       &trans       &trans       &trans            &trans       &trans  &trans                &trans       &trans    &trans    &trans             &trans
+ &trans  &macro_win1  &macro_win2  &macro_win3  &macro_win4  &macro_win5            &trans  &bootloader  &trans                &trans       &trans    &trans    &trans  &macro_dquotes_jp
+ &trans  &macro_win6  &macro_win7  &macro_win8  &macro_win9       &trans            &trans       &trans  &trans                                       &trans    &tog 1             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans       &trans       &trans       &trans       &trans       &trans            &trans       &trans  &trans                &trans       &trans    &trans    &trans             &trans  &trans  &trans  &kp UP  &trans  &trans  &trans
+ &trans       &trans       &trans       &trans       &trans       &trans            &trans       &trans  &trans  &macro_hanzen_formac  &macro_win6  &kp LEFT  &kp DOWN          &kp RIGHT  &trans  &trans
             >;
         };
 
