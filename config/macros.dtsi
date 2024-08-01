@@ -16,12 +16,6 @@ label = "macro_superreload";
 #binding-cells = <0>;
 bindings = <&sk LEFT_COMMAND>, <&sk LEFT_SHIFT>, <&kp R>;
 };
-macro_delete_formac: macro_delete_formac{
-compatible = "zmk,behavior-macro";
-label = "macro_delete_formac";
-#binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&kp D>;
-};
 macro_hanzen_forwin: macro_hanzen_forwin{
 compatible = "zmk,behavior-macro";
 label = "macro_hanzen_forwin";
