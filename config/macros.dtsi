@@ -1,3 +1,9 @@
+macro_superreload: macro_superreload{
+compatible = "zmk,behavior-macro";
+label = "macro_superreload";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&mt LSHIFT R>;
+};
 macro_delete_formac: macro_delete_formac{
 compatible = "zmk,behavior-macro";
 label = "macro_delete_formac";
