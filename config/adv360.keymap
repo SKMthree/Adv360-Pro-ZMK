@@ -45,7 +45,7 @@
             &kp TAB      &kp Q                   &kp W        &kp E        &kp R           &kp T                   &caps_word       &lt 0 HOME                 &kp Y      &kp U   &kp I                 &kp O          &kp P      &kp RIGHT_BRACKET
  &macro_superreload      &kp A                   &kp S        &kp D        &kp F           &kp G                      &kp TAB          &kp DEL              &kp LALT                                 &kp RGUI  &mt RCTRL TAB                &kp END   &kp H   &kp J      &kp K    &kp L  &kp SEMI        &kp SQT
              &kp F2      &kp Z                   &kp X        &kp C        &kp V           &kp B                        &none            &none                 &mo 1      &none   &none  &macro_hanzen_forwin          &none                  &none   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-              &mo 2  &kp LCTRL  &macro_hanzen_or_eisuu  &mt LCTRL C  &mt LCTRL V  &kp LEFT_SHIFT                    &kp SPACE  &macro_alt_five  &macro_ctrl_shift_f5  &kp ENTER   &kp A              &kp LBKT      &kp EQUAL  &macro_hanzen_or_kana   &mo 5   &mo 2
+              &mo 2  &kp LCTRL  &macro_hanzen_or_eisuu  &mt LCTRL C  &mt LCTRL V  &kp LEFT_SHIFT                    &kp SPACE  &macro_alt_five  &macro_ctrl_shift_f5  &kp ENTER   &none              &kp LBKT      &kp EQUAL  &macro_hanzen_or_kana   &mo 5   &mo 2
             >;
         };
 
@@ -71,7 +71,7 @@
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 0  &bt BT_SEL 1                             &to 0       &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 4  &bt BT_SEL 2  &bt BT_SEL 0  &bt BT_SEL 1                             &to 0       &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                   &none
   &none         &none         &none         &none         &none         &none                       &bootloader  &bootloader         &none         &none         &none         &none         &none                   &none
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5   &bt BT_CLR  &out OUT_BLE                                &bt BT_CLR    &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none   &none   &none   &none   &none   &none
   &none         &none         &none         &none         &none         &none                             &none        &none         &to 0         &none         &none         &none         &none                   &none   &none   &none   &none   &none   &none   &none
