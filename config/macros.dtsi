@@ -2,19 +2,19 @@ macro_hanzen_or_eisuu: macro_hanzen_or_eisuu{
 compatible = "zmk,behavior-macro";
 label = "macro_hanzen_or_eisuu";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp SPACE>;
+bindings = <&sk LEFT_CONTROL>, <&kp SPACE>;
 };
 macro_hanzen_or_kana: macro_hanzen_or_kana{
 compatible = "zmk,behavior-macro";
 label = "macro_hanzen_or_kana";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_CONTROL>, <&kp SPACE>;
+bindings = <&sk RIGHT_CONTROL>, <&kp SPACE>;
 };
 macro_superreload: macro_superreload{
 compatible = "zmk,behavior-macro";
 label = "macro_superreload";
 #binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&kp LSHIFT>, <&kp R>;
+bindings = <&sk LEFT_COMMAND>, <&sk LEFT_SHIFT>, <&kp R>;
 };
 macro_delete_formac: macro_delete_formac{
 compatible = "zmk,behavior-macro";
