@@ -1,9 +1,3 @@
-macro_backspece: macro_backspece{
-compatible = "zmk,behavior-macro";
-label = "macro_backspece";
-#binding-cells = <0>;
-bindings = <&kp BACKSPACE>;
-};
 macro_hanzen_or_eisuu: macro_hanzen_or_eisuu{
 compatible = "zmk,behavior-macro";
 label = "macro_hanzen_or_eisuu";
