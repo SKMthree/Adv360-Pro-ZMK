@@ -33,11 +33,32 @@
     };
 
     macros {
-        hanzen_or_eisuu: hanzen_or_eisuu {
+        hanzen_eisuu: hanzen_or_eisuu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp F20>;
             label = "HANZEN_OR_EISUU";
+        };
+
+        hanzen_kana: hanzen_kana {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk RIGHT_CONTROL &kp SPACE>;
+            label = "HANZEN_KANA";
+        };
+
+        switch_window: switch_window {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SCROLLLOCK>;
+            label = "SWITCH_WINDOW";
+        };
+
+        hanzen_for_windows: hanzen_for_windows {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_CONTROL &kp SPACE>;
+            label = "HANZEN_FOR_WINDOWS";
         };
     };
 
@@ -46,21 +67,21 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1     &kp N2   &kp N3            &kp N4   &kp N5  &lt 3 EXCLAMATION                                                            &tog 1         &kp N6  &kp N7            &kp N8     &kp N9            &kp N0     &kp MINUS
-&kp TAB  &kp Q      &kp W    &kp E             &kp R    &kp T   &caps_word                                                                   &lt 0 HOME     &kp Y   &kp U             &kp I      &kp O             &kp P      &kp RIGHT_BRACKET
-&none    &kp A      &kp S    &kp D             &kp F    &kp G   &kp TAB            &kp DEL    &kp LALT      &kp RGUI          &mt RCTRL TAB  &kp END        &kp H   &kp J             &kp K      &kp L             &kp SEMI   &kp SQT
-&kp F2   &kp Z      &kp X    &kp C             &kp V    &kp B                                 &mo 1         &kp KP_NUM                                      &kp N   &kp M             &kp COMMA  &kp PERIOD        &kp SLASH  &kp BACKSLASH
-&mo 2    &kp LCTRL  &kp F20  &hanzen_or_eisuu  &kp F14          &kp LEFT_SHIFT     &kp SPACE  &kp F15       &hanzen_or_eisuu  &kp ENTER      &kp BACKSPACE          &kp LEFT_BRACKET  &kp EQUAL  &hanzen_or_eisuu  &mo 5      &kp F16
+&kp ESC  &kp N1     &kp N2         &kp N3          &kp N4   &kp N5  &lt 3 EXCLAMATION                                                               &tog 1         &kp N6  &kp N7            &kp N8     &kp N9        &kp N0     &kp MINUS
+&kp TAB  &kp Q      &kp W          &kp E           &kp R    &kp T   &caps_word                                                                      &lt 0 HOME     &kp Y   &kp U             &kp I      &kp O         &kp P      &kp RIGHT_BRACKET
+&tog 6   &kp A      &kp S          &kp D           &kp F    &kp G   &kp TAB            &kp DEL    &kp LALT      &kp RGUI             &mt RCTRL TAB  &kp END        &kp H   &kp J             &kp K      &kp L         &kp SEMI   &kp SQT
+&kp F2   &kp Z      &kp X          &kp C           &kp V    &kp B                                 &mo 1         &kp KP_NUM                                         &kp N   &kp M             &kp COMMA  &kp PERIOD    &kp SLASH  &kp BACKSLASH
+&mo 2    &kp LCTRL  &hanzen_eisuu  &switch_window  &kp F14          &kp LEFT_SHIFT     &kp SPACE  &kp F15       &hanzen_for_windows  &kp ENTER      &kp BACKSPACE          &kp LEFT_BRACKET  &kp EQUAL  &hanzen_kana  &mo 5      &kp F16
             >;
         };
 
         layer_keypad {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5  &trans                                      &trans  &kp N6                &kp F2        &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &to 0   &none     &kp UP    &kp F2     &none   &none                                       &none   &none                 &kp N7        &kp N8        &kp N9         &kp KP_MINUS     &kp ENTER
-&kp ESC    &to 0   &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none   &trans  &trans      &trans  &to 0   &none   &trans                &kp N4        &kp N5        &kp N6         &kp KP_PLUS      &kp SQT
-&kp LSHFT  &to 0   &none     &none     &none      &none                   &trans      &trans                  &macro_alt_down2_ent  &kp NUMBER_1  &kp N2        &kp N3         &kp KP_ENTER     &kp SQT
-&trans     &trans  &trans    &kp LEFT  &kp RIGHT          &trans  &trans  &trans      &trans  &trans  &trans                        &kp N0        &kp SLASH     &kp DOT        &mo 5            &trans
+&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5  &trans                                      &trans  &kp N6  &kp F2        &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &to 0   &none     &kp UP    &kp F2     &none   &none                                       &none   &none   &kp N7        &kp N8        &kp N9         &kp KP_MINUS     &kp ENTER
+&kp ESC    &to 0   &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none   &trans  &trans      &trans  &to 0   &none   &trans  &kp N4        &kp N5        &kp N6         &kp KP_PLUS      &kp SQT
+&kp LSHFT  &to 0   &none     &none     &none      &none                   &trans      &trans                  &trans  &kp NUMBER_1  &kp N2        &kp N3         &kp KP_ENTER     &kp SQT
+&trans     &trans  &trans    &kp LEFT  &kp RIGHT          &trans  &trans  &trans      &trans  &trans  &trans          &kp N0        &kp SLASH     &kp DOT        &mo 5            &trans
             >;
         };
 
@@ -69,7 +90,7 @@
 &kp F12  &kp F1   &kp F2    &kp F3    &kp F4     &kp F5   &trans                                      &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &kp F11
 &kp F24  &kp F13  &kp F14   &kp F15   &kp F16    &kp F17  &none                                       &none   &kp F18  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23
 &trans   &trans   &trans    &trans    &trans     &trans   &none   &trans  &trans      &trans  &trans  &none   &trans   &trans   &trans   &trans   &trans   &trans
-&to 6    &trans   &trans    &kp UP    &trans     &trans                   &trans      &trans                  &trans   &trans   &trans   &trans   &trans   &trans
+&trans   &trans   &trans    &kp UP    &trans     &trans                   &trans      &trans                  &trans   &trans   &trans   &trans   &trans   &trans
 &trans   &trans   &kp LEFT  &kp DOWN  &kp RIGHT           &trans  &trans  &trans      &trans  &trans  &trans           &trans   &trans   &trans   &trans   &trans
             >;
         };
@@ -96,21 +117,21 @@
 
         layer_direction_dquotes {
             bindings = <
-&trans  &trans       &trans       &trans       &trans       &trans       &trans                                                     &trans       &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &macro_win1  &macro_win2  &macro_win3  &macro_win4  &macro_win5  &trans                                                     &bootloader  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &macro_win6  &macro_win7  &macro_win8  &macro_win9  &trans       &trans  &trans  &trans      &trans  &tog 1                 &trans       &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans       &trans       &trans       &trans       &trans                       &trans      &trans                                      &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &trans       &trans       &trans       &trans                    &trans  &trans  &trans      &trans  &macro_hanzen_or_kana  &macro_win6          &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
             >;
         };
 
-        layer_fn_lock_macro {
+        layer_windows {
             bindings = <
-&trans       &trans       &trans       &trans                 &trans         &trans       &trans                                           &trans     &trans     &trans     &trans     &trans     &trans  &trans
-&macro_si11  &macro_si12  &macro_si13  &macro_si51            &macro_si52    &macro_si53  &macro_si54                                      &macro_r1  &macro_r2  &macro_r3  &macro_r4  &macro_r5  &trans  &trans
-&none        &none        &macro_ge1   &macro_ge2             &macro_ge51    &macro_ge52  &macro_ge53  &trans  &trans      &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans  &trans
-&none        &none        &none        &macro_f2_ctrl_ac_ent  &macro_ctrl_v  &none                             &trans      &trans                     &trans     &trans     &trans     &trans     &trans  &trans
-&to 0        &trans       &trans       &trans                 &trans                      &trans       &trans  &trans      &trans  &trans  &trans                &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
